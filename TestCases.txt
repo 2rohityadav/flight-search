@@ -1,0 +1,74 @@
+Test cases
+
+Input is in ./db/flightDb.json
+
+Input format: [flightObject1,flightObejct2];
+
+flightObject:
+
+ {
+    "src": "Pune", (Origin City)
+    "dest": "Delhi", (Destination City)
+    "depTimeMs": 28800000, (Time as Milliseconds passed on that day, eg. 1:00 AM will be shown as 3600000ms, )
+    "arrTimeMs": 36000000, (10:00 AM)
+    "day": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ], (SUNDAY - 0, Saturday - 6)
+    "seatCount": 120,
+    "price": 4500,
+    "name": "AL-202"
+  }
+
+Availability of the flight is based on the, day of the week.
+In Input there is a entity as day and based on that search is being done.
+By default all flights are available on alll days of the week.
+
+1. While on One way Tab in Search box, Departure date should not be shown.
+2. Search flight for Pune to Delhi, one way trip - case insensitive
+	- date before today -> No flight should come.
+	- date as today ->
+	- date after today-> 3 flights should come
+
+3. Flight details are in ascending order of price. (sorted)
+
+4. Change the price range and coordingly flight details will get updated.
+
+5. While filling the search form all entities are necessary, without that Search button won't be enabled.
+
+6. Searc flight for pune to delhi, return trip.
+
+	- To journey date before today
+	- To journey date as today
+	- To journey date after today
+	- Return Journey date before today
+	- Return Journey date as today
+	- Return Journey date after today
+	- ReETURN JOURNEY DATE BEFORE DEPARTURE DATE
+	
+7. Fro journey date is after TO journey date - 3 flights from pune to delhi
+
+8. TO and fro journey on same date -  2 flights from pune to delhi
+	REASON: One of the to-journey flights arrival time to delhi is after the departure time of one of the flight from delhi
+	
+9. Search one way flight from delhi to indore - 1 flight available
+
+10. Search return flight from delhi to indore - No return flight available from Indore to delhi. Info of dlehi to indore wil be shown
+
+11. Search with same destination as source - it should throw error.
+
+12. In input, modify any flight details and make it unavailable for any particular day of the week and search again. -> Flight should not be shown afterwards.
+
+13. All test cases have tested in Mobile UI too.
+
+
+
+
+
+	
+	

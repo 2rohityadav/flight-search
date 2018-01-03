@@ -1,0 +1,128 @@
+[
+  {
+    "src": "Pune",
+    "dest": "Delhi",
+    "depTimeMs": 28800000,
+    "arrTimeMs": 36000000,
+    "day": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "seatCount": 120,
+    "price": 4500,
+    "name": "AL-202"
+  },
+  {
+    "src": "Pune",
+    "dest": "Delhi",
+    "depTimeMs": 57600000,
+    "arrTimeMs": 64800000,
+    "day": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "seatCount": 120,
+    "price": 500,
+    "name": "AL-205"
+  },
+  {
+    "src": "Pune",
+    "dest": "Delhi",
+    "depTimeMs": 79200000,
+    "arrTimeMs": 82800000,
+    "day": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "seatCount": 120,
+    "price": 4600,
+    "name": "AL-205"
+  },
+  {
+    "src": "Delhi",
+    "dest": "Pune",
+    "depTimeMs": 79200000,
+    "arrTimeMs": 82800000,
+    "day": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "seatCount": 120,
+    "price": 4500,
+    "name": "AL-203"
+  },
+  {
+    "src": "Chennai",
+    "dest": "Delhi",
+    "depTimeMs": 25200000,
+    "arrTimeMs": 32400000,
+    "day": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "seatCount": 120,
+    "price": 4500,
+    "name": "AL-201"
+  },
+  {
+    "src": "Delhi",
+    "dest": "Chennai",
+    "depTimeMs": 61200000,
+    "arrTimeMs": 68400000,
+    "day": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "seatCount": 120,
+    "price": 4500,
+    "name": "AL-201"
+  },
+  {
+    "src": "Delhi",
+    "dest": "Indore",
+    "depTimeMs": 36000000,
+    "arrTimeMs": 39600000,
+    "day": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "seatCount": 120,
+    "price": 4500,
+    "name": "AL-208"
+  }
+]
