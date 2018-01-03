@@ -3,12 +3,13 @@ flight search - AngularJs
 
 Setup
 ----
-> install live server or node server
-> for node server => http-server or for live server => live-server
+> install live server or node server <br />
+> for node server => http-server  <br />
+> or for live server => live-server
 
 Running
 ----
-node server open http://localhost:8080/
+node server open http://localhost:8080/ <br />
 live server open http://localhost:3000/
 
 App look like
